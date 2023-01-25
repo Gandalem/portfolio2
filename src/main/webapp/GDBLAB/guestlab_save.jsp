@@ -4,7 +4,7 @@
     
 <%@ page import = "java.sql.*,java.util.*,java.text.*" %>
 <% request.setCharacterEncoding("UTF-8"); %>
-<%@ include file = "connect_oracle.jsp" %>
+<%@ include file = "con_oracle.jsp" %>
 
 <%
 	String em = request.getParameter("email");

@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 
 <%@ page import="java.util.*,java.sql.*,java.text.*" %>
-<%@ include file="connect_oracle.jsp" %>
+<%@ include file="con_oracle.jsp" %>
 
 <!DOCTYPE html>
 <html>

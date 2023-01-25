@@ -5,7 +5,7 @@
 <!-- 필요한 라이브러이 등록 -->
 <%@ page import = "java.sql.*,java.util.*" %>
 
-<%@include file="connect_oracle.jsp" %>
+<%@include file="con_oracle.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>

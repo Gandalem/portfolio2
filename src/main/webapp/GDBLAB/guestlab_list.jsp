@@ -6,7 +6,7 @@
 
 <!-- 클래스 import,DB connect 객체 -->
 <%@ page language="java" import="java.sql.*,java.util.*" %> 
-<%@ include file="connect_oracle.jsp" %>
+<%@ include file="con_oracle.jsp" %>
 
 <HTML>
 <HEAD><TITLE>게시판</TITLE>
