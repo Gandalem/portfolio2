@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-
-
-
  .navbar {
   			display: flex;
   			justify-content: space-between;
@@ -60,6 +57,22 @@
   			font-size: 20px;
   			display : none;
 		}
+		
+.box {
+  width: 10rem;
+  height: 10rem;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  transition: .4s;  
+}
+
+.box.active {
+  width: 20rem;
+  color: #fff;
+}
 		
 		@media screen and (max-width:730px){
 			.title{
