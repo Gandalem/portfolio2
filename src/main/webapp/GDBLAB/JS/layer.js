@@ -60,3 +60,15 @@ const boxList = document.querySelectorAll('.box');
 
 // 반복문을 돌려 모든 DOM에 적용
 boxList.forEach(el => observer.observe(el));
+
+ $(document).ready(function(){
+    $('.bxslider').bxSlider({ 
+        auto: true,
+        speed: 500, 
+        pause: 5000, 
+        mode: 'horizontal', 
+        autoControls: true,
+        pager: true, 
+        captions: true
+    });
+  });
